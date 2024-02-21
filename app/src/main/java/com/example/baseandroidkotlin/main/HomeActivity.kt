@@ -55,6 +55,7 @@ class HomeActivity : BaseActivity() {
             }
             return@setOnNavigationItemSelectedListener false
         }
+        onClickBottomTab(Constants.TAB_HOME)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

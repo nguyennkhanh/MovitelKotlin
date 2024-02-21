@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BaseAndroidKotlin VN</string>
+    <string name="tab_home">Home VN</string>
+    <string name="tab_selfcare">Selfcare VN</string>
+    <string name="tab_utilities">Utilities VN</string>
+    <string name="tab_relax">Relax VN</string>
+    <string name="tab_promotions">Pacotes VN</string>
+</resources>

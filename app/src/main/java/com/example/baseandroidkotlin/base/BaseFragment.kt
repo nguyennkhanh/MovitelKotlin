@@ -34,6 +34,11 @@ abstract class BaseFragment:Fragment(), BaseFragmentListener , OnNetworkChangedL
         printTimeOnCreated()
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        initData()
+    }
+
     override fun onStart() {
         super.onStart()
         Log.i(TAG, "onStart")
